@@ -17,7 +17,7 @@ date: August 31, 2023
 - [Act](#act)
 
 
-## [Scenario](https://github.com/martinlopera96/bellabeat_project/edit/main/README.md#table-of-contents)
+## Scenario (#scenario)
 
 Bellabeat is a high-tech manufacturer of health-focused products for
 women and it is a successful small company with the potential to become
@@ -34,13 +34,13 @@ understandable and legible project. These questions will be answered in
 order and then I will document the whole process passing by each one of
 the six steps of an exploratory data analysis.
 
-## [Technologies](https://github.com/martinlopera96/bellabeat_project/edit/main/README.md#table-of-contents)
+## Technologies (#technologies)
 
 -   **R :** Data retrieving, preparing, processing, analyzing and
     visualizing.
 -   **Tableau Public:** Data sharing.
 
-## [Methodologies](https://github.com/martinlopera96/bellabeat_project/edit/main/README.md#table-of-contents)
+## Methodologies (#methodologies)
 
 -   Retrieving, cleaning and processing data.
 
@@ -48,7 +48,7 @@ the six steps of an exploratory data analysis.
 
 -   Bi-variate analysis for correlations.
 
-## [Ask](https://github.com/martinlopera96/bellabeat_project/edit/main/README.md#table-of-contents)
+## Ask (#ask)
 
 Business task is to analyze smart device usage data in order to gain
 insight into how consumers use non-Bellabeat smart devices.
@@ -65,7 +65,7 @@ Secondary stakeholders: Bellabeat marketing analytics team.
 
 3.  How could these trends help influence Bellabeat marketing strategy?
 
-## [Prepare](https://github.com/martinlopera96/bellabeat_project/edit/main/README.md#table-of-contents)
+## Prepare (#prepare)
 
 Data: FitBit Fitness Tracker Data is a public data-set in Kaggle which
 contains personal fitness tracker from around 30 FitBit users. Data
@@ -207,7 +207,7 @@ unique_heartrate <- length(unique(heartrate$Id))
 print(unique_heartrate)
 ```
 
-## [Process](https://github.com/martinlopera96/bellabeat_project/edit/main/README.md#table-of-contents)
+## Process (#process)
 
 **What tools are you using and why?**
 
@@ -294,7 +294,7 @@ those results?**
     this repository I documented all the steps I took in all phases of
     the project.
 
-## [Analyze](https://github.com/martinlopera96/bellabeat_project/edit/main/README.md#table-of-contents)
+## Analyze (#analyze)
 
 **How should you organize your data to perform analysis on it?**
 
@@ -565,11 +565,11 @@ ggplot(summary_by_weekday,
     in smart devices data and we can start advising this health care
     company to help them make data-driven decisions.
 
-## [Share](https://github.com/martinlopera96/bellabeat_project/edit/main/README.md#table-of-contents)
+## Share (#share)
 
 ### [Bellabeat Exploratory Data Analysis Dashboard](https://public.tableau.com/app/profile/martin.lopera/viz/BellabeatExploratoryDataAnalysisDashboard/Dashboard1)
 
-## [Act](https://github.com/martinlopera96/bellabeat_project/edit/main/README.md#table-of-contents)
+## Act (#act)
 
 Based on the exploratory data analysis performed in smart device's data,
 we share our conclusions and recommendations:
