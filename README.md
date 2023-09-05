@@ -1,21 +1,23 @@
----
-editor_options:
-  markdown:
-    wrap: 72
-  chunk_output_type: console
-output:
-  html_document: 
-    keep_md: yes
-  pdf_document: default
----
-
 # Bellabeat - Exploratory Data Analysis
 
 Author: Martín Lopera
 
 date: August 31, 2023
 
-## Scenario
+## Table of contents
+
+- [Scenario](#scenario)
+- [Technologies](#technologies)
+- [Methodologies](#methodologies)
+- [Ask](#ask)
+- [Prepare](#prepare)
+- [Process](#process)
+- [Analyze](#analyze)
+- [Share](#share)
+- [Act](#act)
+
+
+## [Scenario](https://github.com/martinlopera96/bellabeat_project/edit/main/README.md#table-of-contents)
 
 Bellabeat is a high-tech manufacturer of health-focused products for
 women and it is a successful small company with the potential to become
@@ -32,13 +34,13 @@ understandable and legible project. These questions will be answered in
 order and then I will document the whole process passing by each one of
 the six steps of an exploratory data analysis.
 
-## Technologies
+## [Technologies](https://github.com/martinlopera96/bellabeat_project/edit/main/README.md#table-of-contents)
 
 -   **R :** Data retrieving, preparing, processing, analyzing and
     visualizing.
 -   **Tableau Public:** Data sharing.
 
-## Methodologies
+## [Methodologies](https://github.com/martinlopera96/bellabeat_project/edit/main/README.md#table-of-contents)
 
 -   Retrieving, cleaning and processing data.
 
@@ -46,7 +48,7 @@ the six steps of an exploratory data analysis.
 
 -   Bi-variate analysis for correlations.
 
-## Ask
+## [Ask](https://github.com/martinlopera96/bellabeat_project/edit/main/README.md#table-of-contents)
 
 Business task is to analyze smart device usage data in order to gain
 insight into how consumers use non-Bellabeat smart devices.
@@ -63,7 +65,7 @@ Secondary stakeholders: Bellabeat marketing analytics team.
 
 3.  How could these trends help influence Bellabeat marketing strategy?
 
-## Prepare
+## [Prepare](https://github.com/martinlopera96/bellabeat_project/edit/main/README.md#table-of-contents)
 
 Data: FitBit Fitness Tracker Data is a public data-set in Kaggle which
 contains personal fitness tracker from around 30 FitBit users. Data
@@ -205,7 +207,7 @@ unique_heartrate <- length(unique(heartrate$Id))
 print(unique_heartrate)
 ```
 
-## Process
+## [Process](https://github.com/martinlopera96/bellabeat_project/edit/main/README.md#table-of-contents)
 
 **What tools are you using and why?**
 
@@ -292,7 +294,7 @@ those results?**
     this repository I documented all the steps I took in all phases of
     the project.
 
-## Analyze
+## [Analyze](https://github.com/martinlopera96/bellabeat_project/edit/main/README.md#table-of-contents)
 
 **How should you organize your data to perform analysis on it?**
 
@@ -563,11 +565,11 @@ ggplot(summary_by_weekday,
     in smart devices data and we can start advising this health care
     company to help them make data-driven decisions.
 
-## Share
+## [Share](https://github.com/martinlopera96/bellabeat_project/edit/main/README.md#table-of-contents)
 
 ### [Bellabeat Exploratory Data Analysis Dashboard](https://public.tableau.com/app/profile/martin.lopera/viz/BellabeatExploratoryDataAnalysisDashboard/Dashboard1)
 
-## Act
+## [Act](https://github.com/martinlopera96/bellabeat_project/edit/main/README.md#table-of-contents)
 
 Based on the exploratory data analysis performed in smart device's data,
 we share our conclusions and recommendations:
